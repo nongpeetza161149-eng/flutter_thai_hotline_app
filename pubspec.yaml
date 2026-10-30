@@ -1,0 +1,39 @@
+name: flutter_thai_hotline_app
+description: "thaihotlineappp"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^2.0.0
+  google_fonts: ^9.0.0
+  font_awesome_flutter: ^11.0.0
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/aboutme/
+    - assets/images/bank/
+    - assets/images/emergency/
+    - assets/images/pubutil/
+    - assets/images/travel/
